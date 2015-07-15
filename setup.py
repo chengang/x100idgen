@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='x100idgen',
-    version='0.1.3',
+    version='0.1.7',
 
     description='Id generator require no centralized authority',
-    long_description='Id generator like uuidgen, shorter and customizable.',
+    long_description=open('README.rst').read(),
     url='https://github.com/chengang/x100idgen',
     author='Chen Gang',
     author_email='yikuyiku.com@gmail.com',
@@ -26,4 +26,5 @@ setup(
     keywords='uuid idgen id IdGenerator x100',
 
     py_modules=['x100idgen'],
+    test_suite='tests',
 )

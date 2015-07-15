@@ -18,7 +18,7 @@ SYNOPSIS
 
     def validate_id(your_id):
         idgen = x100idgen.IdGen()
-        if idgen.validate_id("yt7NaHvuNOqSsc6PdM"):
+        if idgen.validate_id(your_id):
             return True
         else:
             return False

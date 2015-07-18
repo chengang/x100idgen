@@ -7,7 +7,7 @@ x100idgen - Id generator require no centralized authority
 SYNOPSIS
 ========
 
-.. code:: python
+.. code::
 
     import x100idgen
 
@@ -33,7 +33,7 @@ SYNOPSIS
 
 Ouput:
 
-.. code:: python
+.. code::
 
     Get id : ytmaWHUzDikIGwOLl6
     The id ytmaWHUzDikIGwOLl6 is True

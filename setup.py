@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='x100idgen',
-    version='0.1.8',
+    version='0.2.1',
 
     description='Id generator require no centralized authority',
     long_description=open('README.rst').read(),
